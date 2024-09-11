@@ -1,0 +1,14 @@
+new_ignored_item
+
+   @"
+   __pycache__/
+   *.pyc
+   *.pyo
+   *.pyd
+   .DS_Store
+   .vscode/
+   .idea/
+   *.csv
+   *.png
+   new_ignored_item
+   "@ | Out-File -FilePath .gitignore -Encoding ascii
