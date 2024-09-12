@@ -27,7 +27,22 @@ Final value of $1000 investment in S&P 500: $6114.48
 ![Portfolio Performance vs. S&P 500 Performance](https://github.com/nickwilson3/Quant-Strategy/blob/main/annual_returns_comparison.png)
 ![1000$ Invested into Portfolio vs S&P 500](https://github.com/nickwilson3/Quant-Strategy/blob/main/investment_growth_comparison.png)
 ## Investment Thesis
-This portfolio, powered by quantitative analysis, is essentially a rebalanced S&P 500 that is optimized by projected individual sector performance. The portfolio is a mix of SPDR S&P 500 Sector ETFS. The thesis is that by evaluating key economic factors and lagged returns of sector performance, you can reallocate the sectors to optimize the S&P 500 to produce higher returns, with less risk.
+
+This quantitative strategy aims to enhance S&P 500 returns through optimized sector allocation. By leveraging machine learning techniques and economic indicators, we seek to identify and capitalize on sector rotation dynamics within the S&P 500.
+
+Key aspects of the strategy include:
+
+1. **S&P 500 Sector Focus**: The portfolio exclusively uses SPDR S&P 500 Sector ETFs, maintaining broad market exposure while allowing for tactical adjustments.
+
+2. **Quantitative Optimization**: Utilizing Random Forest models, the strategy analyzes key economic factors and historical sector performance to project future sector returns.
+
+3. **Dynamic Reallocation**: Quarterly rebalancing allows the portfolio to adapt to changing market conditions and sector trends.
+
+4. **Risk-Adjusted Performance**: By optimizing sector weights based on projected performance, the strategy aims to achieve higher returns with potentially lower risk compared to the standard S&P 500 index.
+
+5. **Economic Factor Integration**: The model incorporates various economic indicators to capture broader market trends and their potential impact on sector performance.
+
+The core thesis is that by analytically reallocating sector weights based on quantitative projections, we can create a more efficient version of the S&P 500 index, potentially offering superior risk-adjusted returns over time.
 
 ### Data
 1. 11 SPDR Sector Etfs + S&P 500 - *price data imported through yfinance*
