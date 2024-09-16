@@ -1,7 +1,6 @@
 # Quantitative Trading Strategy
 Nick Wilson - *Claremont McKenna College, Emory University (Master's of Analytical Finance)*
 
-Jacky Tan - *Indiana University, Emory University (Master's of Analytical Finance)*
 
 ## Portfolio Summary
 *Since 2010*
